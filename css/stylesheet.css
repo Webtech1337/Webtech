@@ -84,7 +84,7 @@ footer img   {
 
 /* styling our main content */
 .hero           {
-  min-height: 800px;
+  min-height: 1270;
   text-align: center;
   background-image: url('../img/homepage.jpg');
   background-size: 100% auto;
