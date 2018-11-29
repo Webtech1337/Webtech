@@ -48,7 +48,7 @@ nav ul   {
 nav ul li {
   display: inline-block;
 }
-nav ul li a button  {
+nav ul li a  {
   font-size: 22px;
   color: #FFF;
   background-color: #222;
@@ -57,8 +57,20 @@ nav ul li a button  {
   border-radius: 20 px;
   transition: 0.3s ease all;
 }
-nav ul li a:hover   {
+nav ul li a:hover  {
   background: #444;
+}
+
+.button {
+  font-size: 22px;
+  border-color: white;
+  color: #FFF;
+  background-color: #222;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 20 px;
+  transition: 0.3s ease all;
+  cursor: pointer;
 }
 
 footer   {
@@ -74,6 +86,7 @@ footer img   {
   margin: 0 auto 10px;
 }
 
+
 .hoofdpagina           {
   min-height: 1000px;
   position: relative;
@@ -85,7 +98,8 @@ footer img   {
   text-align: center;
 
 }
-.hoofdpagina-content   {
+.hoofdpagina-content  {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   padding-top: 130px;
 }
@@ -96,7 +110,7 @@ footer img   {
 .hoofdpagina-content p    {
   font-size: 50px;
 }
-.hoofdpagina-content a    {
+.hoofdpagina-content a   {
 
   color: #FFF;
   border: 3px solid #FFF;
@@ -107,7 +121,13 @@ footer img   {
   font-size: 28px;
 }
 
-/* basic site sections */
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
 .site-section   {
   padding-bottom: 50px;
   padding-top: 50px;
@@ -183,11 +203,12 @@ footer img   {
 }
 
 .featured-videos {
-  width: 100%;
-  height: 300px;
+  display: inline-table;
+  position:relative;
+  padding-bottom:5%;
+  padding-top:30px;
+  height:0;
   overflow:hidden;
-  position: relative;
-  border: 0px;
 }
 
 .forumpagina {
@@ -299,10 +320,14 @@ footer img   {
 
 
 .team-sectie {
-  overflow: hidden;
+  min-height: 1000px;
+  position: relative;
+  background: url('../img/overons.jpg') 50% 0 no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
-  background: #2c3e50;
-  padding: 60px;
 }
 
 .team-sectie img {
@@ -321,7 +346,7 @@ footer img   {
   margin: auto;
   width: 160px;
   height: 3px;
-  background: #3498db;
+  background:#ffcc66;
   margin-bottom: 40px;
 }
 
@@ -366,4 +391,69 @@ footer img   {
   text-align: center;
   text-transform: uppercase;
   font-size: 22px;
+}
+
+
+
+.forumpagina-content  {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FFF;
+  padding-top: 130px;
+}
+
+.forumpagina-content h2   {
+  font-size: 100px;
+  margin: 0;
+}
+
+.forumpagina-content p2    {
+  font-size: 50px;
+}
+
+
+.videopaginabg {
+  min-height: 1000px;
+  position: relative;
+  background: url('../img/videopagina.jpg') 50% 0 no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.videopagina-content  {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FFF;
+  padding-top: 130px;
+}
+
+.videopagina-content h3   {
+  font-size: 100px;
+  margin: 0;
+}
+
+.videopagina-content p3    {
+  font-size: 50px;
+}
+
+
+.videopagina{
+  display: inline-table;
+  position:relative;
+  padding-bottom:5%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+
+}
+
+.iframe {
+  table-layout: auto;
+  width: 100%;
+}
+
+.video2{
+  table-layout: auto;
+  width: 100%;
 }
