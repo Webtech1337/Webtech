@@ -223,7 +223,6 @@ table {
 }
 
 
-
 .loginpagina{
   min-height: 1000px;
   position: relative;
@@ -341,13 +340,16 @@ table {
   color: white;
   font-size: 40px;
 }
-.border {
+.tekstblok {
   display: block;
   margin: auto;
   width: 160px;
   height: 3px;
   background:#ffcc66;
   margin-bottom: 40px;
+}
+.tekst {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .ps {
@@ -396,7 +398,6 @@ table {
 
 
 .forumpagina-content  {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   padding-top: 130px;
 }
