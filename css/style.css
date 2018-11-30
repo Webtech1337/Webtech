@@ -76,7 +76,7 @@ nav ul li a:hover  {
 footer   {
   background: #222;
   color: #777;
-  padding: 40px;
+  padding: 5px;
   text-align: center;
 }
 footer img   {
@@ -124,8 +124,8 @@ footer img   {
 table {
   display: table;
   border-collapse: separate;
-  border-spacing: 2px;
   border-color: gray;
+  border-spacing: 0px;
 }
 
 .site-section   {
@@ -440,12 +440,12 @@ table {
 
 .videopagina{
   display: inline-table;
-  position:relative;
-  padding-bottom:5%;
-  padding-top:30px;
-  height:0;
-  overflow:hidden;
-
+  position: relative;
+  padding-bottom: 5%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  border-spacing: 2px;
 }
 
 .iframe {
@@ -456,4 +456,102 @@ table {
 .video2{
   table-layout: auto;
   width: 100%;
+}
+
+.naam {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.forum {
+  border-spacing: 1px;
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+  padding: 2px 2px;
+}
+
+.plaatje {
+  width: 5%;
+}
+
+.topic {
+  width: 40%;
+}
+
+.bekeken {
+  width: 30%;
+}
+
+.laatstepost {
+  width: 20%;
+}
+
+.forum td {
+  border-spacing: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.forum th {
+  border-spacing: 0;
+  background: darkblue;
+  color: white;
+
+}
+.forum td,
+.forum th {
+  text-align: left;
+  padding: 5px 10px;
+}
+.forum tr {
+  background: white;
+}
+
+.punaise {
+  background: url('../img/punaise.png') 50% 0 no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.lijstafbeelding {
+  background: url('../img/lijst.png') 50% 0 no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.nieuwetopic {
+  background-color: darkblue; color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+  }
+
+.forumlogin {
+  background-color: darkblue; color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  font-size: 16px;
 }
